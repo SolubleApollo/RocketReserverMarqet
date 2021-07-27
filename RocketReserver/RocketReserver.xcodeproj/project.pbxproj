@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F580B6E26B0687700916EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F580B6D26B0687700916EE9 /* AppDelegate.swift */; };
+		9F580B7026B0687700916EE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F580B6F26B0687700916EE9 /* SceneDelegate.swift */; };
+		9F580B7226B0687700916EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F580B7126B0687700916EE9 /* ViewController.swift */; };
+		9F580B7526B0687700916EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F580B7326B0687700916EE9 /* Main.storyboard */; };
+		9F580B7726B0687C00916EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F580B7626B0687C00916EE9 /* Assets.xcassets */; };
+		9F580B7A26B0687C00916EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F580B7826B0687C00916EE9 /* LaunchScreen.storyboard */; };
+		9F580B8526B0687C00916EE9 /* RocketReserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F580B8426B0687C00916EE9 /* RocketReserverTests.swift */; };
+		9F580B9026B0687C00916EE9 /* RocketReserverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F580B8F26B0687C00916EE9 /* RocketReserverUITests.swift */; };
+		9F580B9F26B0695800916EE9 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 9F580B9E26B0695800916EE9 /* Apollo */; };
+		9F580BA126B0695800916EE9 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 9F580BA026B0695800916EE9 /* ApolloWebSocket */; };
+		9F580BA626B06D9900916EE9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F580BA526B06D9900916EE9 /* API.swift */; };
+		9F580BA826B06DD600916EE9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F580BA726B06DD600916EE9 /* Network.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F580B8126B0687C00916EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F580B6226B0687700916EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F580B6926B0687700916EE9;
+			remoteInfo = RocketReserver;
+		};
+		9F580B8C26B0687C00916EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F580B6226B0687700916EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F580B6926B0687700916EE9;
+			remoteInfo = RocketReserver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F580B6A26B0687700916EE9 /* RocketReserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketReserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F580B6D26B0687700916EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F580B6F26B0687700916EE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F580B7126B0687700916EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F580B7426B0687700916EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F580B7626B0687C00916EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F580B7926B0687C00916EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F580B7B26B0687C00916EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F580B8026B0687C00916EE9 /* RocketReserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketReserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F580B8426B0687C00916EE9 /* RocketReserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketReserverTests.swift; sourceTree = "<group>"; };
+		9F580B8626B0687C00916EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F580B8B26B0687C00916EE9 /* RocketReserverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketReserverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F580B8F26B0687C00916EE9 /* RocketReserverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketReserverUITests.swift; sourceTree = "<group>"; };
+		9F580B9126B0687C00916EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F580BA326B06C6800916EE9 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		9F580BA426B06D3900916EE9 /* LaunchList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchList.graphql; sourceTree = "<group>"; };
+		9F580BA526B06D9900916EE9 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		9F580BA726B06DD600916EE9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F580B6726B0687700916EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F580B9F26B0695800916EE9 /* Apollo in Frameworks */,
+				9F580BA126B0695800916EE9 /* ApolloWebSocket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F580B7D26B0687C00916EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F580B8826B0687C00916EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F580B6126B0687700916EE9 = {
+			isa = PBXGroup;
+			children = (
+				9F580B6C26B0687700916EE9 /* RocketReserver */,
+				9F580B8326B0687C00916EE9 /* RocketReserverTests */,
+				9F580B8E26B0687C00916EE9 /* RocketReserverUITests */,
+				9F580B6B26B0687700916EE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F580B6B26B0687700916EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F580B6A26B0687700916EE9 /* RocketReserver.app */,
+				9F580B8026B0687C00916EE9 /* RocketReserverTests.xctest */,
+				9F580B8B26B0687C00916EE9 /* RocketReserverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F580B6C26B0687700916EE9 /* RocketReserver */ = {
+			isa = PBXGroup;
+			children = (
+				9F580B6D26B0687700916EE9 /* AppDelegate.swift */,
+				9F580B6F26B0687700916EE9 /* SceneDelegate.swift */,
+				9F580B7126B0687700916EE9 /* ViewController.swift */,
+				9F580B7326B0687700916EE9 /* Main.storyboard */,
+				9F580B7626B0687C00916EE9 /* Assets.xcassets */,
+				9F580B7826B0687C00916EE9 /* LaunchScreen.storyboard */,
+				9F580B7B26B0687C00916EE9 /* Info.plist */,
+				9F580BA326B06C6800916EE9 /* schema.json */,
+				9F580BA526B06D9900916EE9 /* API.swift */,
+				9F580BA426B06D3900916EE9 /* LaunchList.graphql */,
+				9F580BA726B06DD600916EE9 /* Network.swift */,
+			);
+			path = RocketReserver;
+			sourceTree = "<group>";
+		};
+		9F580B8326B0687C00916EE9 /* RocketReserverTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F580B8426B0687C00916EE9 /* RocketReserverTests.swift */,
+				9F580B8626B0687C00916EE9 /* Info.plist */,
+			);
+			path = RocketReserverTests;
+			sourceTree = "<group>";
+		};
+		9F580B8E26B0687C00916EE9 /* RocketReserverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F580B8F26B0687C00916EE9 /* RocketReserverUITests.swift */,
+				9F580B9126B0687C00916EE9 /* Info.plist */,
+			);
+			path = RocketReserverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F580B6926B0687700916EE9 /* RocketReserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F580B9426B0687C00916EE9 /* Build configuration list for PBXNativeTarget "RocketReserver" */;
+			buildPhases = (
+				9F580BA226B069D100916EE9 /* Apollo CLI */,
+				9F580B6626B0687700916EE9 /* Sources */,
+				9F580B6726B0687700916EE9 /* Frameworks */,
+				9F580B6826B0687700916EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketReserver;
+			packageProductDependencies = (
+				9F580B9E26B0695800916EE9 /* Apollo */,
+				9F580BA026B0695800916EE9 /* ApolloWebSocket */,
+			);
+			productName = RocketReserver;
+			productReference = 9F580B6A26B0687700916EE9 /* RocketReserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F580B7F26B0687C00916EE9 /* RocketReserverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F580B9726B0687C00916EE9 /* Build configuration list for PBXNativeTarget "RocketReserverTests" */;
+			buildPhases = (
+				9F580B7C26B0687C00916EE9 /* Sources */,
+				9F580B7D26B0687C00916EE9 /* Frameworks */,
+				9F580B7E26B0687C00916EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F580B8226B0687C00916EE9 /* PBXTargetDependency */,
+			);
+			name = RocketReserverTests;
+			productName = RocketReserverTests;
+			productReference = 9F580B8026B0687C00916EE9 /* RocketReserverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F580B8A26B0687C00916EE9 /* RocketReserverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F580B9A26B0687C00916EE9 /* Build configuration list for PBXNativeTarget "RocketReserverUITests" */;
+			buildPhases = (
+				9F580B8726B0687C00916EE9 /* Sources */,
+				9F580B8826B0687C00916EE9 /* Frameworks */,
+				9F580B8926B0687C00916EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F580B8D26B0687C00916EE9 /* PBXTargetDependency */,
+			);
+			name = RocketReserverUITests;
+			productName = RocketReserverUITests;
+			productReference = 9F580B8B26B0687C00916EE9 /* RocketReserverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F580B6226B0687700916EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9F580B6926B0687700916EE9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9F580B7F26B0687C00916EE9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9F580B6926B0687700916EE9;
+					};
+					9F580B8A26B0687C00916EE9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9F580B6926B0687700916EE9;
+					};
+				};
+			};
+			buildConfigurationList = 9F580B6526B0687700916EE9 /* Build configuration list for PBXProject "RocketReserver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F580B6126B0687700916EE9;
+			packageReferences = (
+				9F580B9D26B0695800916EE9 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 9F580B6B26B0687700916EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F580B6926B0687700916EE9 /* RocketReserver */,
+				9F580B7F26B0687C00916EE9 /* RocketReserverTests */,
+				9F580B8A26B0687C00916EE9 /* RocketReserverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F580B6826B0687700916EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F580B7A26B0687C00916EE9 /* LaunchScreen.storyboard in Resources */,
+				9F580B7726B0687C00916EE9 /* Assets.xcassets in Resources */,
+				9F580B7526B0687700916EE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F580B7E26B0687C00916EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F580B8926B0687C00916EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F580BA226B069D100916EE9 /* Apollo CLI */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Apollo CLI";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n//\"${SCRIPT_PATH}\"/run-bundled-codegen.sh schema:download --endpoint=\"https://apollo-fullstack-tutorial.herokuapp.com/\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F580B6626B0687700916EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F580BA826B06DD600916EE9 /* Network.swift in Sources */,
+				9F580B7226B0687700916EE9 /* ViewController.swift in Sources */,
+				9F580B6E26B0687700916EE9 /* AppDelegate.swift in Sources */,
+				9F580BA626B06D9900916EE9 /* API.swift in Sources */,
+				9F580B7026B0687700916EE9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F580B7C26B0687C00916EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F580B8526B0687C00916EE9 /* RocketReserverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F580B8726B0687C00916EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F580B9026B0687C00916EE9 /* RocketReserverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F580B8226B0687C00916EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F580B6926B0687700916EE9 /* RocketReserver */;
+			targetProxy = 9F580B8126B0687C00916EE9 /* PBXContainerItemProxy */;
+		};
+		9F580B8D26B0687C00916EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F580B6926B0687700916EE9 /* RocketReserver */;
+			targetProxy = 9F580B8C26B0687C00916EE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F580B7326B0687700916EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F580B7426B0687700916EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F580B7826B0687C00916EE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F580B7926B0687C00916EE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F580B9226B0687C00916EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F580B9326B0687C00916EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F580B9526B0687C00916EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketReserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarqetGroup.RocketReserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F580B9626B0687C00916EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketReserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarqetGroup.RocketReserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F580B9826B0687C00916EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketReserverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarqetGroup.RocketReserverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketReserver.app/RocketReserver";
+			};
+			name = Debug;
+		};
+		9F580B9926B0687C00916EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketReserverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarqetGroup.RocketReserverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketReserver.app/RocketReserver";
+			};
+			name = Release;
+		};
+		9F580B9B26B0687C00916EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketReserverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarqetGroup.RocketReserverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RocketReserver;
+			};
+			name = Debug;
+		};
+		9F580B9C26B0687C00916EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketReserverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarqetGroup.RocketReserverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RocketReserver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F580B6526B0687700916EE9 /* Build configuration list for PBXProject "RocketReserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F580B9226B0687C00916EE9 /* Debug */,
+				9F580B9326B0687C00916EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F580B9426B0687C00916EE9 /* Build configuration list for PBXNativeTarget "RocketReserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F580B9526B0687C00916EE9 /* Debug */,
+				9F580B9626B0687C00916EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F580B9726B0687C00916EE9 /* Build configuration list for PBXNativeTarget "RocketReserverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F580B9826B0687C00916EE9 /* Debug */,
+				9F580B9926B0687C00916EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F580B9A26B0687C00916EE9 /* Build configuration list for PBXNativeTarget "RocketReserverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F580B9B26B0687C00916EE9 /* Debug */,
+				9F580B9C26B0687C00916EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F580B9D26B0695800916EE9 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.45.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F580B9E26B0695800916EE9 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F580B9D26B0695800916EE9 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		9F580BA026B0695800916EE9 /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F580B9D26B0695800916EE9 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9F580B6226B0687700916EE9 /* Project object */;
+}
